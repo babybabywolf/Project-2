@@ -1,0 +1,107 @@
+<% layout("layouts/boilerplate")%>
+    <div class="container text-center">
+
+        <div class="row">
+
+
+            <div class="col-6">
+
+                <div class="card">
+                    <div class="card-header">
+                        My Events
+                    </div>
+                    <div class="card-body">
+
+                        <ul class="list-group">
+                            <% hostedEvents.forEach((e)=> { %>
+                                <a href="/events/<%= e._id %>" class="list-group-item list-group-item-action"><i
+                                        class="bi bi-star"></i>
+                                    <%= e.title %>
+                                </a>
+
+
+                                <% });%>
+                        </ul>
+
+                        <ul class="list-group">
+                            <% joinedEvents.forEach((e)=> { %>
+                                <a href="/events/<%= e._id %>" class="list-group-item list-group-item-action">
+                                    <%= e.title %>
+                                </a>
+
+
+                                <% });%>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        My Transactions
+                    </div>
+
+                    <div class="card-body">
+
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+
+                                    <th scope="col">Category</th>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Amount</th>
+                                    <th scope="col">Date</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <% let i=1 %>
+                                    <% let total=0 %>
+                                        <% transactions.forEach((t)=> {%>
+                                            <tr>
+                                                <th scope="row">
+                                                    <%= i%>
+                                                </th>
+
+
+                                                <td>
+                                                    <%= t.category %>
+                                                </td>
+                                                <td>
+                                                    <%= t.type %>
+                                                </td>
+                                                <td>
+                                                    <%= t.amount %>
+                                                </td>
+                                                <td>
+                                                    <%= t.date.toLocaleDateString() %>
+                                                </td>
+
+                                            </tr>
+                                            <% i++ %>
+                                                <% total=total+t.amount %>
+                                                    <% });%>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    </div>

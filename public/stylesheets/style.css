@@ -1,8 +1,24 @@
-body {
+main {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  flex: 1; /* Allows the main content to grow and fill the container for vertical centering */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Adjust this as needed */
 }
-
-a {
-  color: #00B7FF;
+.container{
+  padding: 50px;
+  
+  
+  
+  width: 100%;
+  
+}
+.avatar{
+  margin: 10px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }

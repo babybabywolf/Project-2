@@ -1,0 +1,60 @@
+<% layout("layouts/boilerplate")%>
+
+<form action="/events/<%= e._id %>/transactions" method="POST">
+
+    
+        <div class="row mb-3">
+          <label for="amount" class="col-sm-2 col-form-label">Amount</label>
+          <div class="col-sm-10">
+            <input type="number" class="form-control" id="amount" name="amount">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="category" class="col-sm-2 col-form-label">Category</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="category" name="category">
+          </div>
+        </div>
+        <div class="row mb-3">
+            <label for="description" class="col-sm-2 col-form-label">Description</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="description" name="description">
+            </div>
+          </div>
+        <fieldset class="row mb-3">
+            <label for="type" class="col-sm-2 col-form-label">Type</label>
+            <div class="col-sm-10">
+            <select class="form-select form-select-sm" aria-label="Small select example" name="type" id="type">
+                
+                <option value="Expense">Expense</option>
+      <option value="Contribution">Contribution</option>
+              </select>
+            </div>
+        </fieldset>
+        <div class="row mb-3">
+          <div class="col-sm-10 offset-sm-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" name="agreeToTerms" required>
+              <label class="form-check-label" for="gridCheck1">
+                Agree to terms and conditions
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-sm-10 offset-sm-2">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+  </form>

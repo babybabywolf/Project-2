@@ -1,0 +1,15 @@
+<% layout("layouts/boilerplate")%>
+
+    
+
+    <ul class="list-group">
+      <% events.forEach((e) => { %>
+        <a href="/events/<%= e._id %>" class="list-group-item list-group-item-action"><%= e.title %></a>
+     
+
+      <% });%>
+    </ul>
+
+
+    
+
