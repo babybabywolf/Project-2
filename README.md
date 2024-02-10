@@ -23,7 +23,7 @@ Enables dynamic rendering of HTML pages, allowing for real-time updates of finan
 ## Getting Started
 https://just-web-server.onrender.com/
 
-Get a handle on your event's finances today with FinEvent. Start by creating your event, setting a budget, and inviting participants. Then, easily track every expense and contribution in real-time, ensuring you stay on budget.
+Get a handle on your event's finances today with iEvent. Start by creating your event, setting a budget, and inviting participants. Then, easily track every expense and contribution in real-time, ensuring you stay on budget.
 
 ## Next Steps
 Future enhancements for iEvent include:
