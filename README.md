@@ -5,8 +5,8 @@
 iEvent is a web application designed to simplfy financial management and transaction tracking for events. Designed for event organisers and participants, this platform streamlines the process of budgeting, expense tracking and financia reporting, ensuring transparency and efficiency in managing event finances.
 
 ## Screenshot
-![Screenshot of the landing page](/public/images/landing_page.png)
-![Screenshot of the personal dashboard](/public/images/personal_dashboard.png)
+![Screenshot of the landing page](/public/images/landing%20page.png)
+![Screenshot of the personal dashboard](/public/images/personal%20dashboard.png)
 
 ### Technologies Used
 JavaScript: Powers the core functionality of the app, facilitating server-side logic and dynamic client-side interactions.
