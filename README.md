@@ -5,6 +5,8 @@
 iEvent is a web application designed to simplfy financial management and transaction tracking for events. Designed for event organisers and participants, this platform streamlines the process of budgeting, expense tracking and financia reporting, ensuring transparency and efficiency in managing event finances.
 
 ## Screenshot
+![Sreenshot of the landing page]
+(public/images/landing page.png)
 
 ### Technologies Used
 JavaScript: Powers the core functionality of the app, facilitating server-side logic and dynamic client-side interactions.
@@ -26,8 +28,17 @@ Get a handle on your event's finances today with FinEvent. Start by creating you
 ## Next Steps
 Future enhancements for iEvent include:
 
-Real-time Collaboration: Allow multiple organizers to manage finances together in real time.
-Advanced Reporting: Generate comprehensive financial reports for an in-depth analysis of event expenses and contributions.
-Payment Gateway Integration: Seamlessly process payments and contributions directly through the platform.
-Customizable Budget Categories: Offer personalized budget categories to match the unique needs of different events.
 
+### Advanced Reporting: 
+Generate comprehensive financial reports for an in-depth analysis of event expenses and contributions.
+### Approval Process:
+
+We plan to introduce a feature where users can send a request to join an event, which must be approved by the host before they can participate. This will give hosts better control over their event's attendance and ensure that only approved participants can access event details and contribute to its finances.
+### Activity-Based Financial Tracking:
+
+We plan to introduce a comprehensive system for hosts to create and manage different activities within each event. Participants will be able to see a breakdown of costs for each activity and choose which activities they want to join. 
+### Automated Participant Expense Calculation:
+
+Automatically calculate and display the amount each participant owes for the events they've chosen to join
+
+Participants can access a real-time breakdown of their expenses, contributions, and outstanding payments, ensuring clarity and accountability.
