@@ -59,7 +59,7 @@ async function edit(req, res) {
 
 //delete a event
 async function deleteOne(req, res) {
-  console.log("check delete")
+  
   await Event.findByIdAndDelete(req.params.id);
   res.redirect("/events");
 }
